@@ -1,0 +1,28 @@
+{
+  "name": "videogame-skel",
+  "description": "skeleton for new videogame projects",
+  "dependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard-js": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogoeichert/videogame-skel.git"
+  },
+  "keywords": [
+    "game",
+    "skel",
+    "skeleton",
+    "videogame"
+  ],
+  "author": "Diogo Eichert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diogoeichert/videogame-skel/issues"
+  },
+  "homepage": "https://github.com/diogoeichert/videogame-skel#readme"
+}
