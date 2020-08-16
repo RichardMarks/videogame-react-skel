@@ -3,6 +3,7 @@
 /* global videogame */
 
 const Color = videogame.Color;
+const Command = videogame.Command;
 const TextSprite = videogame.TextSprite;
 const Videogame = videogame.Videogame;
 
@@ -26,8 +27,19 @@ const player = new ControllableSprite()
 	.setWidth(32)
 	.setHeight(32)
 	.setColor(Color.Yellow)
-	.setSolid()
-	.setStep(2);
+	.setSolid();
+
+player.update = () => {
+	if (player.controller.didPerform([Command.LEFT, Command.RIGHT, Command.LEFT, Command.RIGHT, Command.B, Command.A])) {
+		player.center = loot.center;
+	}
+
+	if (player.controller.keyDown(Command.A)) {
+		player.step = 4;
+	} else {
+		player.step = 2;
+	}
+};
 
 const loot = Videogame.sprite()
 	.setWidth(16)
