@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <!-- <link rel="shortcut icon" type="image/png" href="icon16.png" /> -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width">
 
-    <style>
-      #assets {
-        height: 1px;
-        overflow: hidden;
-        visibility: hidden;
-        width: 1px;
-      }
+<head>
+	<!-- <link rel="shortcut icon" type="image/png" href="icon16.png" /> -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width">
 
-      body {
-        background-color: Black;
-        margin: 0;
-        overflow: hidden;
-        padding: 0;
-      }
+	<style>
+		#assets {
+			height: 1px;
+			overflow: hidden;
+			visibility: hidden;
+			width: 1px;
+		}
 
-      canvas {
-        cursor: none;
-      }
-    </style>
-  </head>
+		body {
+			background-color: Black;
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+		}
 
-  <body>
-    <div>
-      <canvas id="canvas" width="800" height="600"></canvas>
-    </div>
+		canvas {
+			cursor: none;
+		}
+	</style>
+</head>
 
-    <div id="assets">
-      <!-- <img id="frame0" src="frames/frame0.png" width="32" height="32" /> -->
-      <!-- <audio id="sound0" src="sounds/sound0.ogg"></audio> -->
-      <!-- <audio id="theme0" src="themes/theme0.ogg" loop></audio> -->
-    </div>
+<body>
+	<div>
+		<!-- set the game internal resolution here -->
+		<canvas id="canvas" width="800" height="600"></canvas>
+	</div>
+
+	<!-- add all game assets here (audio and img) -->
+	<div id="assets">
+		<!-- <img id="frame0" src="frames/frame0.png" width="32" height="32" /> -->
+		<!-- <audio id="sound0" src="sounds/sound0.ogg"></audio> -->
+		<!-- <audio id="theme0" src="themes/theme0.ogg" loop></audio> -->
+	</div>
 
 	<script src="https://cdn.jsdelivr.net/gh/diogoeichert/videogame@1.3.0/src/videogame.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/diogoeichert/videogame-plugin@1.0.2/src/controllable.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/diogoeichert/videogame-plugin@1.0.2/src/starfield.js"></script>
-    <script src="index.js"></script>
-  </body>
+	<script src="https://cdn.jsdelivr.net/gh/diogoeichert/videogame-plugin@1.0.3/src/controllable.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/diogoeichert/videogame-plugin@1.0.3/src/starfield.js"></script>
+	<script src="index.js"></script>
+</body>
+
 </html>
