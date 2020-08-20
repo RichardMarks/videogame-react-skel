@@ -17,7 +17,7 @@ import {
   Sprite,
   TextSprite,
   Videogame
-} from './api/vg'
+} from 'api/vg'
 
 // import the Videogame plugins
 import {
@@ -27,7 +27,7 @@ import {
   Fog,
   JumperSprite,
   Starfield
-} from './api/vg-plugins'
+} from 'api/vg-plugins'
 
 // optionally log everything imported to the console to verify that it loaded ok
 console.log({

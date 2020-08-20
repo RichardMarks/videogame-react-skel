@@ -1,6 +1,6 @@
 # Demonstration Game Design
 
-The `index.js` JavaScript file contains the entire skeleton code which is based upon the original skeleton code provided by [Diogo Eichert](https://github.com/diogoeichert).
+The `index.js` JavaScript file contains the entire skeleton code which is based upon the [original skeleton code](https://github.com/diogoeichert/videogame-skel) provided by [Diogo Eichert](https://github.com/diogoeichert).
 
 > **Notice: API links marked with `%source%` were undocumented at the time of this writing and link to the source code of the implementation on Github. The source may have changed by the time this document is read. Use the links to give a clue where to look in the source.**
 
