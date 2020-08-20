@@ -8,7 +8,7 @@ This project is intended to be a skeleton for new [Videogame](https://github.com
 
 + Read the [design document](./docs/Design.md) for an in-depth explanation of the demo code.
 
-+ Clone this repository or download the archive to get started.
++ Clone this repository or [download the archive](https://github.com/RichardMarks/videogame-react-skel/archive/v0.1.0.zip) to get started.
 
 ## Legal
 This project is © 2020 [Richard Marks](https://richardmarks.us) (see [LICENSE](./LICENSE.md) for details)
